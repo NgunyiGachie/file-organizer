@@ -30,8 +30,8 @@ categories=(
 )
 
 # Ensure the target directory exists
-if [ ! -d "ORGANIZED_DIR" ]; then
-    mkdir "ORGANIZED_DIR"
+if [ ! -d "$ORGANIZED_DIR" ]; then
+    mkdir "$ORGANIZED_DIR"
 fi
 
 for folder in Documents Images Videos Music Archives Scripts Others; do
